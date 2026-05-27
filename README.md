@@ -34,9 +34,9 @@ Voici la configuration des broches définie par défaut dans le code :
 | :--- | :--- | :--- |
 | **Écran OLED** | VCC / GND | 3.3V / GND |
 | | SDA / SCL | GPIO 21/22(Esp32) Pins A4/A5( Arduino uno/Nano) |
-| **Buzzer** | + (Signal) | **GPIO 26** |
+| **Buzzer** | + (Signal) | **GPIO 26** pour Esp32, Pin 6 pour Arduino uno/Nano |
 | | - (GND) | GND |
-| **Capteur Flamme** | DO (Digital Out) | **GPIO 14**(pour Esp32), Pin 6 pour Arduino uno/Nano |
+| **Capteur Flamme** | DO (Digital Out) | **GPIO 14** pour Esp32, Pin 7 pour Arduino uno/Nano |
 | | VCC / GND | 5V ou 3.3V / GND |
 
 ---
