@@ -21,8 +21,8 @@ Adafruit_SH1106G display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 // --- CONFIGURATION DES BROCHES (Où sont branchés nos composants ?) ---
 // Le mot "const" veut dire que ce numéro ne changera jamais pendant le programme.
-const int BUZZER_PIN = 26;       // Le buzzer (haut-parleur) est sur la broche 26
-const int FLAME_SENSOR_PIN = 14; // Le capteur de flamme est sur la broche 14
+const int BUZZER_PIN = 26;       // Le buzzer (haut-parleur) est sur la broche 26 pour esp32, Pin 6 pour Arduino Uno/Nano
+const int FLAME_SENSOR_PIN = 14; // Le capteur de flamme est sur la broche 14 pour esp32, Pin 7 pour Arduino Uno/Nano
 
 // --- DÉFINITION DES NOTES DE MUSIQUE ---
 // Chaque note de musique correspond à une fréquence en Hertz (la vitesse de vibration).
