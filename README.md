@@ -33,7 +33,7 @@ Voici la configuration des broches définie par défaut dans le code :
 | Composant | Broche Composant | Broche Carte (Exemple ESP32) |
 | :--- | :--- | :--- |
 | **Écran OLED** | VCC / GND | 3.3V / GND |
-| | SDA / SCL | GPIO 21/22 |
+| | SDA / SCL | GPIO 21/22(Esp32) Pins A4/A5( Arduino uno/Nano) |
 | **Buzzer** | + (Signal) | **GPIO 26** |
 | | - (GND) | GND |
 | **Capteur Flamme** | DO (Digital Out) | **GPIO 14** |
