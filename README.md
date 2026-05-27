@@ -36,7 +36,7 @@ Voici la configuration des broches définie par défaut dans le code :
 | | SDA / SCL | GPIO 21/22(Esp32) Pins A4/A5( Arduino uno/Nano) |
 | **Buzzer** | + (Signal) | **GPIO 26** |
 | | - (GND) | GND |
-| **Capteur Flamme** | DO (Digital Out) | **GPIO 14** |
+| **Capteur Flamme** | DO (Digital Out) | **GPIO 14**(pour Esp32), Pin 6 pour Arduino uno/Nano |
 | | VCC / GND | 5V ou 3.3V / GND |
 
 ---
